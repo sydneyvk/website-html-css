@@ -1,0 +1,519 @@
+
+figcaption,
+figure,
+header,
+section,
+p{
+  display: block;
+  }
+
+  body,
+  dd,
+  dl,
+  figure {
+    margin: -1em;
+    }
+
+    ul{
+  margin-left: .3em;
+}
+
+/* img */
+
+figure.full-width{
+  margin-left: -2.25em;
+  margin-right: -2.25em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* background color and text color and text */
+
+body {
+  max-width:;
+  color: #777;
+  background: #eee;
+  padding: 2em;
+  margin: auto;
+  }
+
+  h1 {
+    color: #CC3333;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+  }
+
+  p{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    letter-spacing: .01em;
+    padding-right: .2em;
+    padding-left: .2em;
+  }
+
+/* title */
+
+section.title {
+  padding-above: 0em;
+}
+
+
+/* page headings */
+
+  h4 {
+    color: #c33;
+    font-family: "Century Gothic", sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  /* index font */
+
+    section ul {
+      font-size: .9em;
+    }
+
+  /* about section */
+
+  section.about {
+  padding-top: 2em;
+  }
+
+/* buffalo image */
+
+figure.buffalo{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* why visit */
+
+h4.center{
+  text-align: center;
+  margin-top: 2em;
+  border-bottom: 1.7px solid #777;
+  margin-bottom: 1em;
+  font-size: .89em;
+  text-align: center;
+}
+
+h4.climate{
+  text-align: center;
+  margin-top: -1em;
+  border-bottom: 1.7px solid #777;
+}
+
+ul.why{
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .8em;
+  margin-left: -2em;
+  margin-bottom: 2em;
+}
+
+/* climate */
+
+  section.climate h5 {
+    text-transform: uppercase;
+    text-transform: bold;
+
+  }
+
+  h5.climate {
+    color: #996;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    margin-bottom: -0.75em
+
+  }
+
+  h4.climate {
+
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .89em;
+    margin-bottom: -0.75em
+  }
+
+
+  section.climate{
+  text-align: center;
+    margin-bottom: 1em;
+  }
+
+
+/* facts */
+
+section.facts h5 {
+  text-transform: uppercase;
+
+}
+
+h5.facts {
+  color: #996;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .8em;
+  margin-bottom: -0.75em;
+}
+
+h4.facts{
+  text-align: center;
+  margin-top: 1em;
+  border-bottom: 1.7px solid #777;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .89em;
+  margin-bottom: -0.75em
+
+}
+
+
+
+/* HISTORY images */
+
+figure.migration{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+}
+
+figure.culture{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+}
+
+
+  /* GEOGRAPHY */
+
+
+  section.geo-facts h5 {
+    text-transform: uppercase;
+    text-transform: bold;
+  }
+
+  h5.geo-facts {
+    color: #996;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    margin-bottom: -0.75em;
+
+  }
+
+  section.geo-facts{
+
+    margin-bottom: 1em;
+  }
+
+  /* GEO images */
+
+  figure.geo-zebra{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.geo-balloons{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* WILDLIFE images */
+
+  figure.cheata{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.elephant{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.zebrabutts{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.gazzel{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.bird{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* VISIT */
+  h4.climate{
+    text-align: center;
+    margin-top: -1em;
+    border-bottom: 1.7px solid #777;
+  }
+
+  ul.why{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    margin-left: -2em;
+    margin-bottom: 2em;
+  }
+
+  /* VISITING */
+    section.best-time h5 {
+      text-transform: uppercase;
+    }
+
+
+    h4.best-time {
+
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .89em;
+      margin-bottom: 1em;
+      color: #996;
+
+    }
+
+    h4.currency{
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      margin-bottom: 1em;
+      font-size: .89em;
+      text-align: center;
+      color: #996;
+
+    }
+
+    ul.currency{
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .8em;
+      margin-left: -2em;
+      margin-bottom: -1em;
+    }
+
+    h4.safety{
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      margin-bottom: 1em;
+      font-size: .89em;
+      text-align: center;
+      color: #996;
+
+    }
+
+    ul.safety{
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .8em;
+      margin-left: -2em;
+      margin-bottom: 2em;
+    }
+
+    h4.passport{
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      margin-bottom: 1em;
+      font-size: .89em;
+      text-align: center;
+      color: #996;
+
+    }
+
+    ul.passport{
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .8em;
+      margin-left: -2em;
+      margin-bottom: 2em;
+    }
+
+
+
+
+
+/* VISIT photos */
+
+figure.migration-visit{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+figure.culture2{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+
+/* JEOPARDY photos */
+
+
+figure.jeopardy{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+  /* nav */
+
+  nav ul {
+    list-style: none;
+    padding-left:;
+    margin-bottom:0em;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+   }
+
+
+    nav a {
+      display: inline-block;
+      font:"Trebuchet MS", sans-serif;
+      color: #fff;
+      text-decoration: none;
+      padding: 1em;
+      margin-top: -1em;
+      margin-bottom: -1em;
+      margin-left: -1em;
+
+      font-family: "Trebuchet MS", sans-serif;
+      }
+
+
+
+
+    nav.menu {
+
+
+      padding-left: 6em;
+      margin-top: 0.5em;
+      margin-bottom: 0em;
+      margin-left: -2em;
+      margin-right: -2em;
+      background: #c33;
+      color: #fff;
+      padding-left:4em;
+      padding-top:1em;
+      padding-bottom: 2em;
+      padding-right: 2em;
+      font-family: "Trebuchet MS", sans-serif;
+      overflow: hidden;
+
+  }
+
+  nav.menu details {
+float: right;
+  }
+
+
+  /* back home */
+
+
+  span.jump-link-home{
+    color: #c33;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+  }
+
+  nav.jump-link-home{
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* wider screen layout*/
+
+    @media (min-width: 50em) {
+
+      p,
+      ul {
+        margin: 1em;
+        }
+
+     #buffaloimg,{
+      width: 46%
+    }
+
+    #why, {
+float: left;
+width:60%;
+}
+
+#climate{
+  float: left;
+  width:60%;
+}
+
+
+
+
+
+
+  }

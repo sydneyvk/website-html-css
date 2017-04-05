@@ -1,0 +1,861 @@
+
+figcaption,
+figure,
+header,
+section,
+p{
+  display: block;
+  }
+
+  body,
+  dd,
+  dl,
+  figure {
+    margin: -1em;
+    }
+
+    ul{
+  margin-left: .3em;
+}
+
+/* img */
+
+figure.full-width{
+  margin-left: -2.25em;
+  margin-right: -2.25em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* background color and text color and text */
+
+body {
+  color: #777;
+  background: #eee;
+  padding: 2em;
+  margin: auto;
+  }
+
+  h1 {
+    color: #c33;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 2em;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+  }
+
+  p{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    letter-spacing: .01em;
+    padding-right: .2em;
+    padding-left: .2em;
+  }
+
+/* title */
+
+section.title {
+  margin-top: 0em;
+}
+
+
+/* page headings */
+
+  h4 {
+    color: #c33;
+    font-family: "Century Gothic", sans-serif;
+    text-transform: uppercase;
+
+  }
+
+  /* index font */
+
+    section ul {
+      font-size: .9em;
+    }
+
+  /* about section */
+
+  div.about {
+  padding-top: 2em;
+  }
+
+/* buffalo image */
+
+figure.buffalo{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* why visit */
+
+h4.center{
+  text-align: center;
+  margin-top: 2em;
+  border-bottom: 1.7px solid #777;
+  margin-bottom: 1em;
+  font-size: .89em;
+  text-align: center;
+}
+
+h4.climate{
+  text-align: center;
+  margin-top: -1em;
+  border-bottom: 1.7px solid #777;
+}
+
+ul.why{
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .8em;
+  margin-left: -2em;
+  margin-bottom: 2em;
+}
+
+/* climate */
+
+  section.climate h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
+
+  h5.climate {
+    color: #996;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    margin-bottom: -0.75em
+
+  }
+
+  h4.climate {
+
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .89em;
+    margin-bottom: -0.75em
+  }
+
+
+  section.climate{
+  text-align: center;
+    margin-bottom: 1em;
+  }
+
+
+/* facts */
+
+section.facts h5 {
+  text-transform: uppercase;
+  clear: both
+
+}
+
+h5.facts {
+  color: #996;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .8em;
+  margin-bottom: -0.75em;
+}
+
+h4.facts{
+  text-align: center;
+  margin-top: 1em;
+  border-bottom: 1.7px solid #777;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: .89em;
+  margin-bottom: -0.75em
+
+
+}
+
+
+
+/* HISTORY images */
+
+figure.migration{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+}
+
+figure.culture{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+}
+
+
+  /* GEOGRAPHY */
+
+
+  section.geo-facts h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  h5.geo-facts {
+    color: #996;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    margin-bottom: -0.75em;
+
+  }
+
+  section.geo-facts{
+
+    margin-bottom: 1em;
+  }
+
+  /* GEO images */
+
+  figure.geo-zebra{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.geo-balloons{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* WILDLIFE images */
+
+  figure.cheata{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.elephant{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.zebrabutts{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.gazzel{
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  figure.bird{
+    margin-left: .2em;
+    margin-right: 0em;
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+  /* VISIT */
+  h4.climate{
+    text-align: center;
+    margin-top: -1em;
+    border-bottom: 1.7px solid #777;
+  }
+
+  ul.why{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: .8em;
+    margin-left: -2em;
+    margin-bottom: 2em;
+  }
+
+  /* VISITING */
+    section.best-time h5 {
+      text-transform: uppercase;
+    }
+
+
+    h4.best-time {
+
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .89em;
+      margin-bottom: 1em;
+      color: #996;
+
+    }
+
+    h4.research {
+padding-top:1em;
+    }
+
+    h4.currency{
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      margin-bottom: 1em;
+      font-size: .89em;
+      text-align: center;
+      color: #996;
+
+    }
+
+    ul.currency{
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .8em;
+      margin-left: -2em;
+      margin-bottom: -1em;
+    }
+
+    h4.safety{
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      margin-bottom: 1em;
+      font-size: .89em;
+      text-align: center;
+      color: #996;
+
+    }
+
+    ul.safety{
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .8em;
+      margin-left: -2em;
+      margin-bottom: 2em;
+    }
+
+    h4.passport{
+      text-align: center;
+      margin-top: 2em;
+      border-bottom: 1.7px solid #777;
+      margin-bottom: 1em;
+      font-size: .89em;
+      text-align: center;
+      color: #996;
+
+    }
+
+    ul.passport{
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: .8em;
+      margin-left: -2em;
+      margin-bottom: 2em;
+    }
+
+
+
+
+
+/* VISIT photos */
+
+figure.migration-visit{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+figure.culture2{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+
+/* JEOPARDY photos */
+
+
+figure.jeopardy{
+  margin-left: .2em;
+  margin-right: .2em;
+  margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+  /* nav */
+
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    overflow: hidden;
+    }
+
+  nav {
+    background: #c33;
+    padding-bottom: 0em;
+    margin-left:-10em;
+    margin-right: -10em;
+    border-bottom: 1px solid #ddd;
+    }
+
+    span.summary-group{
+        background: #c33;
+      padding-bottom: 0.5em;
+      padding-left: 100em;
+
+
+    }
+
+  /* hide `details` marker */
+
+  nav summary {
+    visibility: hidden;
+    cursor: pointer; /* change cursor from text to pointing hand */
+    }
+
+  nav .summary-group {
+    float: right;
+    padding-right: 10em;
+    visibility: visible;
+    }
+
+  /* show `summary` */
+
+  nav .summary-group b {
+    display: inline-block;
+    text-transform: uppercase;
+    vertical-align: middle;
+    padding-bottom: .1em;
+    padding-top:0em;
+    color:#fff;
+    }
+
+  nav ol {
+    list-style: none;
+    padding-left:10em;
+    margin:;
+    clear: left; /* clear `.summary-group` float */
+    }
+
+  nav a {
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    border-top: 1px solid #fff;
+    margin: 0 -1em;
+ /* offset/undo `nav` padding for flush alignment */
+    }
+
+  nav a:hover,
+  nav a:focus {
+    color: #fff;
+    background: #c33;
+    }
+
+  /* horizontal menu for wider screens */
+
+  @media (min-width: 40em) {
+
+    nav ol {
+      border-top: 1px solid #ddd;
+      margin-right: -1em;
+      margin-left: -1em;
+      }
+
+    nav li {
+      display: inline;
+      }
+
+    nav a {
+      display: inline-block;
+      border-top: 0;
+      margin: 0;
+      }
+
+    }
+
+  /* back home */
+
+  nav.jump-link-home{
+    text-align: center;
+    clear: both
+
+  }
+
+  span.jump-link-home{
+    display: hidden;
+    text-align: center;
+    color:#fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* WIDE SCREEN LAYOUT*/
+
+    @media (min-width: 50em) {
+
+      p,
+      h5{
+        margin: 1em;
+        }
+
+        h4{
+        margin-top: 1em;
+        margin-left: 0.65em;
+        font-size: 1.5em;
+        clear: both;
+        }
+
+        section.title{
+        font-size: 1.8em;
+        margin-top: -1em;
+        }
+
+
+
+      ul{
+        margin-left:3em;
+        margin-right:3em;
+      }
+
+  /* Index */
+
+  #about1{
+    float: left;
+    width:50%;
+    margin-bottom: 1em;
+  }
+
+  #about2{
+    float: left;
+    width:50%;
+  }
+
+      #buffaloimg{
+      width: 100%;
+      clear: both;
+      }
+
+      #wtf{
+      width:49%;
+      float:left;
+      margin-left:.5em;
+    }
+    section.why h4 {
+    margin-bottom:3em;
+    }
+
+     #climate{
+      float: left;
+      width:49%;
+      margin-top: 2.65em;
+      }
+      section.climate h4 {
+      margin-bottom:5em;
+      }
+      h5.climate {
+        margin-bottom: 1em;
+      }
+
+
+      #facts{
+      width: 100%;
+      margin-top:20em;
+      }
+      h4.facts{
+        width:100%;
+        text-align: center;
+      }
+      #factswide1{
+        float: left;
+        width:50%;
+      }
+
+      #factswide2{
+        float: left;
+        width:50%;
+        margin-bottom:0em;
+      }
+      h4.facts {
+        margin-bottom: 1em;
+      }
+      ul.why{
+        margin-left: -0.8em;
+        margin-bottom: 2em;
+        margin-top: 2em;
+      }
+
+  /* History */
+
+  #intro1{
+    float: left;
+    width:50%;
+    margin-bottom:2em;
+      margin-top:-1em;
+  }
+  #intro4{
+    float: left;
+    width:50%;
+        margin-top:-1em;
+  }
+
+  #intro3{
+    float: left;
+    width:50%;
+    margin-bottom:2em;
+      margin-top:-1em;
+  }
+
+  #intro5{
+    float: left;
+    width:50%;
+        margin-top:-1em;
+  }
+
+  #intro6{
+    float: left;
+    width:50%;
+    margin-bottom:2em;
+      margin-top:-1em;
+  }
+
+  #intro2{
+    float: left;
+    width:50%;
+        margin-top:-1em;
+  }
+  #migration1{
+    float: left;
+  }
+  #migration2{
+    float: left;
+  }
+
+
+  figure.culture{
+    width:99%;
+    margin-top: -1em;
+  }
+  figure.migration{
+    margin-top: -1em;
+    margin-bottom: 1em;
+  }
+
+
+  .text {
+    list-style: none;
+    padding-left: 0;
+    float: left;
+  }
+
+  .text .col {
+    display: inline-block;
+    width: 50%;
+    float: left;
+  }
+
+/* geography*/
+
+  figure.geo-zebra{
+    margin-bottom: 1em;
+  }
+
+/* wildlife*/
+
+figure.elephant{
+  margin-bottom: 1em;
+  margin-top: -2em;
+
+}
+
+figure.cheata{
+  margin-bottom: 1em;
+  margin-top:-2em;
+
+}
+
+figure.zebrabutts{
+  margin-bottom: 1em;
+  margin-top: -1em;
+
+}
+
+figure.gazzel{
+  margin-bottom: 1em;
+  margin-top:-1em;
+
+}
+
+/* visiting */
+#visiting-2{
+  margin-top: 6.5em;
+}
+
+#visiting-4{
+  margin-top: 6.5em;
+}
+
+
+#visiting-5{
+  margin-top: 7.5em;
+}
+
+
+figure.culture2{
+
+  width: 95%;
+  margin-left: 1em;
+
+}
+
+
+figure.migration-visit{
+  margin-bottom: 1em;
+  margin-top:0.5em;
+  float: left;
+  width: 95%;
+  margin-left: 1em;
+}
+
+  ul.currency {
+margin-left: 2em;
+  }
+
+  div.best-time {
+margin-left: 2em;
+margin-right: 2em;
+
+  }
+
+  ul.safety{
+margin-left: 2em;
+  }
+
+
+  ul.passport{
+margin-left: 2em;
+  }
+
+  p.passport{
+text-align: center;
+  }
+
+
+  #currency1{
+    float: left;
+    width:48%;
+
+  }
+
+  #currency2{
+    float: left;
+    width:48%;
+    margin-bottom:2em;
+padding-left: 1.3em;
+  }
+
+  #safety1{
+    float: left;
+    width:48%;
+
+  }
+
+  #safety2{
+    float: left;
+    width:48%;
+    margin-bottom:2em;
+padding-left: 1.3em;
+  }
+
+  #passport1{
+    float: left;
+    width:48%;
+    margin-top: 1em;
+
+  }
+
+  #passport2{
+    float: left;
+    width:48%;
+    margin-bottom:2em;
+padding-left: 1.3em;
+margin-top: 1em;
+  }
+
+
+
+
+      }
